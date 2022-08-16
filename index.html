@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM JS Practice</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="products">
+        <h1 style="text-align: center;">Product Cart System!</h1>
+        <div class="product" id="product1" style="border: 1px solid red;">
+            <h2 class="product-name">HP Laptop</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam voluptatum molestiae inventore nam id repellendus, maiores dolor perspiciatis omnis cupiditate eveniet accusamus voluptas? Esse iste natus illum ipsum deleniti nulla.</p>
+            <p>price: <span class="product-price">200</span>$</p>
+            <span>QTY: </span><input class="product-main-qty" type="number" placeholder="enter the quantity" value="1"><br><br>
+            <button class="add-cart-product">Add To Cart</button>
+        </div>
+        <div class="product" id="product2" style="border: 1px solid red; margin-top: 10px;">
+            <h2 class="product-name">HP Official Desktop</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta architecto doloribus, eligendi aperiam ea, mollitia, ab accusamus quaerat similique autem officiis? Eum alias, placeat enim sequi nisi delectus nemo aliquam!</p>
+            <p>price: <span class="product-price">500</span>$</p>
+            <span>QTY: </span><input class="product-main-qty" type="number" placeholder="enter the quantity" value="1"><br><br>
+            <button class="add-cart-product">Add To Cart</button>
+        </div>
+    </div>
+
+    <div class="cart" style="border: 1px solid blue; margin-top: 10px">
+        <h1>Total Cart</h1>
+        <ul class="cart-lists">
+            <!-- <li class="cart-item"><span class="cart-item-name">HP Laptop</span> - <span class="price-element">200</span>$ - Total: <span class="cart-individual-total">200</span>$ | Qty: <input class="qty-cart" type="number" value="1"> <button class="remove">Remove</button></li>
+            <li class="cart-item"><span class="cart-item-name">HP Official Desktop</span> - <span class="price-element">500</span>$ - Total: <span class="cart-individual-total">500</span>$ | Qty: <input class="qty-cart" type="number" value="1"> <button class="remove">Remove</button></li> -->
+        </ul>
+        <h4>Grand Total = <span class="total-cart-price">200</span>$</h4>
+    </div>
+
+    <script src="js/script.js" async></script>
+</body>
+</html>
